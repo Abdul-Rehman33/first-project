@@ -1,16 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Full Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime aliquid minima velit earum fugit. Quia ipsa possimus accusamus ipsum placeat molestias quasi cupiditate aut corporis ad? Aut, ullam similique!</p>
-    <br>
-    <br><br>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe assumenda cum nostrum reprehenderit tempora autem libero architecto modi nisi! Eaque optio libero illum obcaecati architecto quaerat, amet aut magni at.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quod molestias eaque facilis? Sunt cumque sequi unde obcaecati aperiam molestias vel porro soluta expedita magnam, ex fugit nesciunt, eius repellat!</p>
+    <header>
+        <h1>My Awesome Website</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle">☰</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>This is a modern, responsive website built with HTML, CSS, and JavaScript. Explore the sections to learn more!</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate web developers creating beautiful and functional websites for everyone. Our mission is to make the web a better place.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Web Development</li>
+            <li>SEO Optimization</li>
+            <li>Consulting</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
